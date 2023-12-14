@@ -1,0 +1,77 @@
+/* Basic Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+  }
+
+  tr:first-child th {
+    /* Style for the first th in the first row */
+    background-color: #f8f9fa;
+    color: #495057;
+    padding: 10px;
+  }
+  
+  tr:first-child input {
+    /* Style for the input in the first row */
+    padding: 8px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Hover effect for better user experience */
+  tr:hover {
+    background-color: #e0e0e0;
+  }
+
+  /* Pagination Styles */
+.pagination {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination li {
+    margin: 0 5px;
+    display: inline-block;
+  }
+  
+  .pagination button {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .pagination button:hover {
+    background-color: #ddd;
+  }
+  
+  .pagination button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+  
+  .pagination .active button {
+    background-color: #4caf50;
+    color: #fff;
+    border: 1px solid #4caf50;
+  }
+  
+  
